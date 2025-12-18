@@ -1,0 +1,163 @@
+/* ===== TABLA DE PRODUCTOS ===== */
+.tabla-productos {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse; /* une las líneas */
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Encabezados */
+.tabla-productos thead {
+    background: #7b1b46;
+    color: white;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc; /* líneas grises */
+}
+
+/* Filas alternadas gris / blanco */
+.tabla-productos tbody tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.tabla-productos tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+/* Hover al pasar el mouse */
+.tabla-productos tbody tr:hover {
+    background: #eaeaea;
+}
+
+/* Imágenes */
+.tabla-productos img {
+    border-radius: 6px;
+}
+
+/* Botones */
+.btn-editar {
+    background: #2980b9;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-eliminar {
+    background: #c0392b;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-editar:hover {
+    background: #1f6391;
+}
+
+.btn-eliminar:hover {
+    background: #992d22;
+}
+/* Barra superior del admin */
+.admin-topbar {
+    background: #5c5b5a;
+    color: white;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.admin-topbar h2 {
+    margin: 0;
+}
+
+/* Botón cerrar sesión */
+.btn-cerrar {
+    background: #a93226;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-cerrar:hover {
+    background: #922b21;
+}
+
+.topbar-botones {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-volver {
+    background: #922b21;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-volver:hover {
+    background: #2c3e50;
+}
+
+.admin-header-box {
+    width: 95%;
+    margin: 30px auto;
+    background: #7b1b46; 
+    padding: 15px 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Botón regresar */
+.btn-regresar-admin {
+    background: white;
+    color: #7b1b46;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-regresar-admin:hover {
+    background: #f2f2f2;
+}
+.admin-header-box {
+    background: #7b1b46; 
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 20px auto;
+    width: 95%;
+    border-radius: 6px;
+}
+
+/* Botón agregar */
+.btn-agregar {
+    background: #27ae60;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-agregar:hover {
+    background: #1e8449;
+}
